@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backlash.Common", "Backlash.Common\Backlash.Common.csproj", "{3B6D4E88-9817-45CD-BD19-3F129823E976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backlash.Extensions", "Backlash.Extensions\Backlash.Extensions.csproj", "{3B6CA016-A4B5-4858-B68C-0A756E06B04D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7608405F-A0DD-411B-95AA-54FE56ADD5CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{87705994-2363-4B54-BA06-86B7D5A1C235}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{3951BBF7-8CE1-413B-BEA5-753D54599E52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root", "Root", "{03224E2A-518B-496E-9FD4-10BFD3AA2E4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backlash.Root", "Backlash.Root\Backlash.Root.csproj", "{050748CD-D0C0-4968-8DB2-028E328DADEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backlash.Module.UI", "Backlash.Module.UI\Backlash.Module.UI.csproj", "{63C76D7D-3136-4B75-9750-DAB8FDE08D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backlash.Module.Data", "Backlash.Module.Data\Backlash.Module.Data.csproj", "{2D118B1A-DD03-49D0-8058-2621FFE3B9B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B6D4E88-9817-45CD-BD19-3F129823E976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6D4E88-9817-45CD-BD19-3F129823E976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6D4E88-9817-45CD-BD19-3F129823E976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6D4E88-9817-45CD-BD19-3F129823E976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6CA016-A4B5-4858-B68C-0A756E06B04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6CA016-A4B5-4858-B68C-0A756E06B04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6CA016-A4B5-4858-B68C-0A756E06B04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6CA016-A4B5-4858-B68C-0A756E06B04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050748CD-D0C0-4968-8DB2-028E328DADEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050748CD-D0C0-4968-8DB2-028E328DADEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050748CD-D0C0-4968-8DB2-028E328DADEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050748CD-D0C0-4968-8DB2-028E328DADEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C76D7D-3136-4B75-9750-DAB8FDE08D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C76D7D-3136-4B75-9750-DAB8FDE08D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C76D7D-3136-4B75-9750-DAB8FDE08D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C76D7D-3136-4B75-9750-DAB8FDE08D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D118B1A-DD03-49D0-8058-2621FFE3B9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D118B1A-DD03-49D0-8058-2621FFE3B9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D118B1A-DD03-49D0-8058-2621FFE3B9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D118B1A-DD03-49D0-8058-2621FFE3B9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B6CA016-A4B5-4858-B68C-0A756E06B04D} = {7608405F-A0DD-411B-95AA-54FE56ADD5CC}
+		{3B6D4E88-9817-45CD-BD19-3F129823E976} = {7608405F-A0DD-411B-95AA-54FE56ADD5CC}
+		{63C76D7D-3136-4B75-9750-DAB8FDE08D5E} = {87705994-2363-4B54-BA06-86B7D5A1C235}
+		{2D118B1A-DD03-49D0-8058-2621FFE3B9B6} = {87705994-2363-4B54-BA06-86B7D5A1C235}
+		{050748CD-D0C0-4968-8DB2-028E328DADEA} = {03224E2A-518B-496E-9FD4-10BFD3AA2E4B}
+	EndGlobalSection
+EndGlobal
