@@ -1,0 +1,25 @@
+﻿<Window x:Class="rb.Framework.Backlash.Root.Shell.ShellView"
+        x:ClassModifier="internal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://www.codeplex.com/CompositeWPF"
+        xmlns:utilities="clr-namespace:rb.Framework.Backlash.Root.Utilities"
+        
+        SizeToContent="Height" 
+        Width="600"
+        AllowsTransparency="True"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        Background="Transparent">
+    
+    <Border x:Name="shellBorder"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Margin="0"
+            BorderBrush="Transparent"
+            BorderThickness="0"
+            Background="Transparent">
+        <ContentControl prism:RegionManager.RegionName="{x:Static utilities:RegionNames.AppBarRegion}"/>
+        
+    </Border>
+</Window>

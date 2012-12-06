@@ -51,8 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\ComponentModule.cs" />
+    <Compile Include="Base\ComponentViewModel.cs" />
+    <Compile Include="Base\FrameworkModule.cs" />
+    <Compile Include="Base\FrameworkViewModel.cs" />
+    <Compile Include="Interfaces\IComponentModel.cs" />
+    <Compile Include="Interfaces\IComponentRegion.cs" />
+    <Compile Include="Interfaces\IComponentView.cs" />
+    <Compile Include="Interfaces\IComponentViewModel.cs" />
+    <Compile Include="Interfaces\IFrameworkFacade.cs" />
+    <Compile Include="Interfaces\ISandbox.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
