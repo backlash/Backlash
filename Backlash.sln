@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backlash.Module.UI", "Backl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backlash.Module.Data", "Backlash.Module.Data\Backlash.Module.Data.csproj", "{2D118B1A-DD03-49D0-8058-2621FFE3B9B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backlash.Module.Communication", "Backlash.Module.Communication\Backlash.Module.Communication.csproj", "{AC3FC7BE-10A8-4000-AF03-63E5F4182442}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{2D118B1A-DD03-49D0-8058-2621FFE3B9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D118B1A-DD03-49D0-8058-2621FFE3B9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D118B1A-DD03-49D0-8058-2621FFE3B9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3FC7BE-10A8-4000-AF03-63E5F4182442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3FC7BE-10A8-4000-AF03-63E5F4182442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3FC7BE-10A8-4000-AF03-63E5F4182442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3FC7BE-10A8-4000-AF03-63E5F4182442}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{3B6D4E88-9817-45CD-BD19-3F129823E976} = {7608405F-A0DD-411B-95AA-54FE56ADD5CC}
 		{63C76D7D-3136-4B75-9750-DAB8FDE08D5E} = {87705994-2363-4B54-BA06-86B7D5A1C235}
 		{2D118B1A-DD03-49D0-8058-2621FFE3B9B6} = {87705994-2363-4B54-BA06-86B7D5A1C235}
+		{AC3FC7BE-10A8-4000-AF03-63E5F4182442} = {87705994-2363-4B54-BA06-86B7D5A1C235}
 		{050748CD-D0C0-4968-8DB2-028E328DADEA} = {03224E2A-518B-496E-9FD4-10BFD3AA2E4B}
 	EndGlobalSection
 EndGlobal

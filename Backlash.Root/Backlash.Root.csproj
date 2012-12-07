@@ -121,6 +121,10 @@
       <Project>{3b6ca016-a4b5-4858-b68c-0a756e06b04d}</Project>
       <Name>Backlash.Extensions</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Backlash.Module.Communication\Backlash.Module.Communication.csproj">
+      <Project>{ac3fc7be-10a8-4000-af03-63e5f4182442}</Project>
+      <Name>Backlash.Module.Communication</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Backlash.Module.Data\Backlash.Module.Data.csproj">
       <Project>{2d118b1a-dd03-49d0-8058-2621ffe3b9b6}</Project>
       <Name>Backlash.Module.Data</Name>

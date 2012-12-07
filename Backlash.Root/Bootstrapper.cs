@@ -8,6 +8,10 @@ using System.Windows;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Prism.Regions;
 using Microsoft.Practices.Prism.UnityExtensions;
+using Microsoft.Practices.Prism.Modularity;
+using Backlash.Module.Communication;
+using rb.Framework.Backlash.Module.Data;
+using rb.Framework.Backlash.Module.UI;
 
 namespace rb.Framework.Backlash.Root
 {
@@ -29,9 +33,14 @@ namespace rb.Framework.Backlash.Root
         #endregion
 
         #region Overrides
-        protected override IRegionBehaviorFactory ConfigureDefaultRegionBehaviors()
+        protected override void ConfigureModuleCatalog()
         {
-            return base.ConfigureDefaultRegionBehaviors();
+            base.ConfigureModuleCatalog();
+
+            (this.ModuleCatalog as ModuleCatalog).AddModule(typeof(RootModule));
+            (this.ModuleCatalog as ModuleCatalog).AddModule(typeof(CommunicationModule));
+            (this.ModuleCatalog as ModuleCatalog).AddModule(typeof(DataModule));
+            (this.ModuleCatalog as ModuleCatalog).AddModule(typeof(UIModule));
         }
 
         protected override IUnityContainer CreateContainer()

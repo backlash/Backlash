@@ -7,6 +7,10 @@ using System.Diagnostics.Contracts;
 using rb.Framework.Backlash.Common.Base;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Prism.Regions;
+using rb.Framework.Backlash.Root.Shell;
+using rb.Framework.Backlash.Root.Splash;
+using rb.Framework.Backlash.Root.Splash.Events;
+using rb.Framework.Backlash.Root.Splash.Factories;
 
 namespace rb.Framework.Backlash.Root
 {
@@ -29,7 +33,28 @@ namespace rb.Framework.Backlash.Root
         {
             try
             {
+                #region plumbing
+                this.container.RegisterType<CloseSplashView>();
+                this.container.RegisterType<UpdateSplashViewStatus>();
+                #endregion
 
+                #region factories
+                this.container.RegisterType<ISplashFactory, SplashFactory>();
+                #endregion
+
+                #region models
+
+                #endregion
+
+                #region view models
+                this.container.RegisterType<SplashView>();
+                this.container.RegisterType<ShellViewModel>();                
+                #endregion
+
+                #region views
+                this.container.RegisterType<SplashViewModel>();
+                this.container.RegisterType<ShellView>();
+                #endregion
             }
             catch
             {
